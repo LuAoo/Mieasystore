@@ -1,0 +1,173 @@
+@fontColor:gray;
+@borderColor:#ff8000;
+.position_cneter(@height){
+    width: 1300px;
+    height: @height;
+    margin: 0 auto;
+}
+.trans(@time:.5s){
+    transition: all @time;
+}
+ header{
+     .top_welcom_info{
+         width: 100%;
+         height: 122px;
+         img{
+             width: 100%;
+         }
+     }
+     .top_container{
+     background: lighten(black,20%);
+         .container{
+            .position_cneter(45px);
+            line-height: 45px;
+            li{
+               float: left;
+               a{
+                   font-size: 12px;
+                   color: lighten(@fontColor,20%);
+                   border-right: 1px solid @fontColor;
+                   padding:0 10px;
+                //    padding-right: 10px;
+                   &:hover{
+                       color: aliceblue;
+                   }
+                }
+                &:last-child{
+                   a{
+                       border-right:none;
+                    }
+               }
+            }
+         }
+     }
+     .top_nav_search_container{
+         display: flex;
+         justify-content: space-between;
+         .position_cneter(120px);
+         padding:0 10px;
+         align-items: center;     /* 垂直居中 */
+         .nav_logo{
+            //  background:@borderColor;
+             width: 80px;
+             background-image: url(../res/images/mi.PNG);
+             height: 80px;
+             background-size: 100%;
+             background-repeat: no-repeat
+         }
+         .nav_search{
+            .trans;
+             font-size:0;
+            .dosearch{
+               padding-left: 10px;
+               font-size:15px;
+               width: 250px;
+               height: 50px;
+               border: 1px solid lighten(@fontColor,20%);
+            }
+            .dosearchok{
+                font-size:15px;
+                width: 50px;
+                height: 50px;
+                background: #fff ;
+                border: 1px solid lighten(@fontColor,20%);
+                border-left: none;
+                .trans;
+                &:hover{
+                    background: @borderColor;
+                    border: 1px solid @borderColor;
+                    color: #fff;
+                }
+            }
+            &:hover {
+                border: 1px solid @borderColor;
+            }
+            &:hover .dosearch {
+                border: 0;
+                border-right:1px solid @borderColor;
+            }
+            &:hover .dosearchok {
+                border: 0;
+            }
+         }
+     }
+    // 轮播图样式
+     .top_banner_container{
+        .position_cneter(450);
+     }
+    //  底部图片
+    .bottom_ad{
+        padding-top: 15px;
+        .position_cneter(200px);
+        display: flex;
+        justify-content: space-between;
+        img{
+            width:320px;
+            height: 170px;
+        }
+    }
+ }
+ .main{
+     background: #F5F5F5;
+ }
+ footer{
+    width: 1300px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+ }
+
+ .left_bar{
+     position: fixed;
+     top: 50%;
+     background:white;
+     left: 8px;
+     li{
+        text-align: center;
+        background:white;
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        a{
+            color:#9F9F9F;
+            span{
+                font-size: 15px;
+            }
+            &:hover{
+                color: #ff8000;
+            }
+        }
+        &:not(:first-child){
+            margin-top: 2px;
+        }
+        &:last-child{
+            margin-top: 10px;
+        }
+    }
+ }
+ .right_bar{
+    position: fixed;
+    top: 50%;
+    right: 30px;
+    li{
+        text-align: center;
+        background:white;
+        width: 30px;
+        height: 50px;
+        line-height: 50px;
+        a{
+            color:#9F9F9F;
+            span{
+                font-size: 25px;
+            }
+            &:hover{
+                color: #ff8000;
+            }
+        }
+        &:not(:first-child){
+            margin-top: 2px;
+        }
+        &:last-child{
+            margin-top: 10px;
+        }
+    }
+ }

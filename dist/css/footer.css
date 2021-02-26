@@ -1,0 +1,89 @@
+.footer_top {
+  width: 100%;
+  border-bottom: 1px solid #E0E0E0;
+  padding-bottom: 30px;
+  padding-top: 30px;
+  display: flex;
+}
+.footer_top li {
+  text-align: center;
+  flex-grow: 1;
+}
+.footer_top li span {
+  color: #616361;
+  font-size: 20px;
+  padding-right: 10px;
+}
+.footer_top li a {
+  color: #616361;
+  font-size: 15px;
+}
+.footer_top li a:hover span,
+.footer_top li a:hover {
+  color: #ff8000;
+}
+.footer_top li:not(:first-child) {
+  border-left: 1px solid #E0E0E0;
+}
+.footer_bottom {
+  padding-top: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer_bottom dl dt {
+  font-size: 15px;
+  color: black;
+  margin-bottom: 20px;
+}
+.footer_bottom dl dd {
+  line-height: 30px;
+}
+.footer_bottom dl dd a {
+  font-size: 13px;
+  color: #616361;
+}
+.footer_bottom dl dd a:hover {
+  color: #ff8000;
+}
+.footer_bottom .concatwe {
+  text-align: center;
+  line-height: 40px;
+}
+.footer_bottom .concatwe .concatwe_tel {
+  font-size: 25px;
+  color: #ff8000;
+}
+.footer_bottom .concatwe .concatwe_time {
+  color: #616361;
+  font-size: 12px;
+}
+.footer_bottom .concatwe button {
+  border: 1px solid #ff8000;
+  color: #ff8000;
+  background: #fff;
+  width: 130px;
+  height: 30px;
+  font-size: 13px;
+  transition: all 0.5s;
+}
+.footer_bottom .concatwe button:hover {
+  color: white;
+  background: #ff8000;
+}
+.footer_bottom .concatwe .lookwe_one {
+  font-size: 13px;
+  color: #616361;
+  margin-right: 10px;
+}
+.footer_bottom .concatwe .lookwe_two:hover {
+  color: #ff8000;
+}
+.footer_bottom .concatwe .lookwe_three:hover {
+  color: #ff8000;
+}
+.shabi {
+  margin-top: 40px;
+  text-align: center;
+  color: #949694;
+  font-family: "Helvetica Neue", Helvetica, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+}

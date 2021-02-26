@@ -1,0 +1,36 @@
+.nav_content ul {
+  display: flex;
+  justify-content: center;
+}
+.nav_content li {
+  position: relative;
+  cursor: pointer;
+  text-align: center;
+  width: 100px;
+  padding-bottom: 20px;
+}
+.nav_content li a {
+  color: black;
+  white-space: nowrap;
+}
+.nav_content li::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 100%;
+  width: 0;
+  height: 100%;
+  border-bottom: 3px solid orange;
+  transition: all 0.1s linear;
+}
+.nav_content li:hover a {
+  color: orange ;
+}
+.nav_content li:hover::before {
+  width: 100%;
+  left: 0;
+  transition-delay: 0.1s;
+}
+.nav_content li:hover ~ li::before {
+  left: 0;
+}

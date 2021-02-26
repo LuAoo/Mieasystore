@@ -1,0 +1,100 @@
+@basecolor:#E0E0E0;
+@fontcolor:darken(#949694,20%);
+@hoverColor:#ff8000;
+.setTopfont(@fontsize){
+    color: @fontcolor;
+    font-size: @fontsize;
+}
+.footer_top{
+    width: 100%;
+    border-bottom: 1px solid @basecolor;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    display: flex;
+    li{
+    text-align: center;
+    flex-grow: 1;
+      span{
+       .setTopfont(20px);
+        padding-right: 10px
+        }
+      a{
+        .setTopfont(15px);
+        &:hover span,&:hover{
+            color:@hoverColor ;
+        } 
+      } 
+      &:not(:first-child){
+        border-left: 1px solid @basecolor;
+      }
+    } 
+}
+.footer_bottom{
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    dl{
+        dt{
+            
+            font-size: 15px;
+            color: black;
+            margin-bottom: 20px;
+        }
+        dd{
+            line-height: 30px;
+            a{
+            font-size: 13px;
+            color: @fontcolor;
+            &:hover{
+                color:@hoverColor;
+            }
+            }
+        }
+    }
+    .concatwe{
+        text-align: center;
+        line-height: 40px;
+        .concatwe_tel{
+            font-size: 25px;
+            color: @hoverColor;
+        }
+        .concatwe_time{
+            color: @fontcolor;
+            font-size: 12px;
+        }
+        button{
+            border: 1px solid @hoverColor;
+            color: @hoverColor;
+            background: #fff;
+            width: 130px;
+            height: 30px;
+            font-size: 13px;
+            transition: all .5s;
+            &:hover{
+                color: white;
+                background: @hoverColor;
+            }
+        }
+        .lookwe_one{
+            font-size: 13px;
+            color: @fontcolor;
+            margin-right: 10px;
+        }
+        .lookwe_two{
+            &:hover{
+                color: #ff8000;
+            }
+        }
+        .lookwe_three{
+            &:hover{
+                color: #ff8000;
+            }
+        }
+    }
+}
+.shabi{
+    margin-top: 40px;
+    text-align: center;
+    color: #949694;
+    font-family:"Helvetica Neue", Helvetica, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif ;
+}

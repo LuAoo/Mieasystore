@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="电商">
+    <meta name="description" content="一个很垃圾的电商网站">
+    <link rel="shortcut icon" href="http://static.samsungeshop.com.cn/prod/resources/favicon.ico" type="image/x-icon">
+    <!-- 引入样式 -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+
+    <link rel="stylesheet/less" href="../style/reset.less">
+    <link rel="stylesheet/less" href="../style/app.less">
+    <link rel="stylesheet/less" href="../style/goods.less">
+    <link rel="stylesheet/less" href="../style/login.less">
+    <link rel="stylesheet/less" href="../style/nav.less">
+    <link rel="stylesheet/less" href="../style/banner.less">
+    <link rel="stylesheet/less" href="../style/footer.less">
+    <link rel="stylesheet/less" href="../style/goods_details.less">
+    <!-- 引入font.css -->
+    <link rel="stylesheet" href="../font/iconfont.css">
+    <!-- 引入编译less的文件 -->
+    <script src="../node_modules/less/dist/less.js"></script>
+    <title>商品详情</title>
+</head>
+
+<body>
+    <!-- 头部 -->
+    <header>
+        <!-- 海报 -->
+        <div class="top_welcom_info">
+            <img src="../res/images/welcome.PNG" alt="">
+        </div>
+        <!-- 顶部导航 -->
+        <div class="top_container">
+            <div class="container overflow">
+                <ul class="top_left left">
+                    <li><a href="">你好欢迎来到我们的世界</a></li>
+                    <li><a data-tt="login" class="login" href="">登录</a></li>
+                    <li><a data-tt="register" class="register" href="">免费注册</a></li>
+                </ul>
+                <ul class="top_right right">
+                    <li><a href="">购物车</a></li>
+                    <li><a href="">服务热线:<span>15991477265</span></a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- logo+导航栏+搜索框 -->
+        <div class="top_nav_search_container">
+            <div class="nav_logo"></div>
+            <div class="nav_content">
+                <ul class="nav_content_ul">
+                </ul>
+            </div>
+            <div class="nav_search">
+                <form action="" method="get">
+                    <input class="dosearch" type="search" placeholder="电视">
+                    <input class="dosearchok iconfont" value="&#xe7b7;" type="submit" name="" id="">
+                </form>
+
+            </div>
+        </div>
+    </header>
+    <!-- 主体 -->
+    <div class="main">
+        <div class="detail_content">
+            <div class="detail_left">
+                <img class="detail_img" src="" alt="">
+            </div>
+            <div class="detail_right">
+                <p class="detail_name"></p>
+                <p class="detail_info"></p>
+                <p class="detail_type">小米自营</p>
+                <hr>
+                <div class="ttttttt">
+                    <p class="detail_price"></p>
+                </div>
+                <div class="detail_adress">
+                    <div>
+                        <span class="iconfont">&#xe611;</span>
+                        <span class="detail_adress_info">北京 北京市 海淀区 清河街道</span>
+                        <span class="detail_adress_change">修改</span><br>
+                        <p class="detail_adress_type">有现货</p>
+                    </div>
+                </div>
+                <p class="Chose_color">选择颜色</p>
+                <button class="Chose_color_button">样图色</button>
+                <div class="detail_buyinfo">
+                    <div class="detail_buyinfo_top">
+                        <p class="detail_buyinfo_top_info"></p>
+                        <p class="detail_buyinfo_top_price"></p>
+                    </div>
+                    <p class="price_add"></p>
+                </div>
+                <div class="dosonething">
+                    <button class="dosonething_one">购买</button>
+                    <button class="dosonething_two"><span class="iconfont">&#xe609;</span> 收藏</button>
+                </div>
+                <div class="xiaomistyle">
+                    <a><span class="iconfont">&#xe6d1;</span>小米自营</a>
+                    <a><span class="iconfont">&#xe6d1;</span>小米发货</a>
+                    <a><span class="iconfont">&#xe6d1;</span>小米7天无理由退货</a>
+                    <a><span class="iconfont">&#xe6d1;</span>运费说明</a>
+                    <a><span class="iconfont">&#xe6d1;</span>企业信息</a>
+                    <a><span class="iconfont">&#xe6d1;</span>售后服务政策</a>
+                    <a><span class="iconfont">&#xe6d1;</span>7天价格保护</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 尾部 -->
+    <footer>
+        <ul class="footer_top">
+            <li><a href=""><span class="iconfont">&#xe622;</span> 预约维修服务</a></li>
+            <li><a href=""><span class="iconfont">&#xe601;</span>7天无理由退货</a></li>
+            <li><a href=""><span class="iconfont">&#xe607;</span>15天免费换货</a></li>
+            <li><a href=""><span class="iconfont">&#xe614;</span>满99元包邮</a></li>
+            <li><a href=""><span class="iconfont">&#xe611;</span>520余家售后网点</a></li>
+        </ul>
+        <div class="footer_bottom">
+            <dl>
+                <dt>帮助中心</dt>
+                <dd><a href="">账户管理</a></dd>
+                <dd><a href="">购物指南</a></dd>
+                <dd><a href="">订单操作</a></dd>
+            </dl>
+            <dl>
+                <dt>服务支持</dt>
+                <dd><a href="">售后政策</a></dd>
+                <dd><a href="">自助服务</a></dd>
+                <dd><a href="">相关下载</a></dd>
+            </dl>
+            <dl>
+                <dt>线下门店</dt>
+                <dd><a href="">小米之家</a></dd>
+                <dd><a href="">服务网点</a></dd>
+                <dd><a href="">授权体验店</a></dd>
+            </dl>
+            <dl>
+                <dt>关于小米</dt>
+                <dd><a href="">了解小米</a></dd>
+                <dd><a href="">加入小米</a></dd>
+                <dd><a href="">投资者关系</a></dd>
+                <dd><a href="">企业社会责任</a></dd>
+                <dd><a href="">廉洁举报</a></dd>
+            </dl>
+            <dl>
+                <dt>关注我们</dt>
+                <dd><a href="">新浪微博</a></dd>
+                <dd><a href="">官方微信</a></dd>
+                <dd><a href="">联系我们</a></dd>
+                <dd><a href="">公益基金会</a></dd>
+            </dl>
+            <dl>
+                <dt>特色服务</dt>
+                <dd><a href="">F 码通道</a></dd>
+                <dd><a href="">礼物码</a></dd>
+                <dd><a href="">防伪查询</a></dd>
+            </dl>
+
+            <div class="concatwe">
+                <p class="concatwe_tel">400-100-5678</p>
+                <p class="concatwe_time">8:00-18:00（仅收市话费）</p>
+                <button><span class="iconfont">&#xe606;</span> 人工客服</button>
+                <div class="lookwe">
+                    <span class="lookwe_one">关注小米:</span>
+                    <span class="lookwe_two iconfont">&#xe64c;</span>
+                    <span class="lookwe_three iconfont">&#xe605;</span>
+                </div>
+            </div>
+        </div>
+        <p class="shabi"> 让全球每个人都能享受科技带来的美好生活</p>
+    </footer>
+    <ul class="right_bar">
+        <li><a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=1399663177&site=qq&menu=yes"><img border="0" src="http://wpa.qq.com/pa?p=2:1516245897:52" alt="点击这里给我发消息" title="点击这里给我发消息"/></a></li>
+        <li><a href=""><span class="iconfont">&#xe68e;</span></a></li>
+        <li><a href=""><span class="iconfont">&#xe602;</span></a></li>
+        <li><a href=""><span class="iconfont">&#xe622;</span></a></li>
+        <li><a href=""><span class="iconfont">&#xe604;</span></a></li>
+        <li><a class="backtop" href=""><span class="iconfont">&#xe603;</span></a></li>
+    </ul>
+</body>
+<!-- 引入插件资源等 -->
+<script src="../node_modules/jquery/dist/jquery.js"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.js"> </script>
+<script src="../js/blowup.js"></script>
+<script src="../js/tools.js"></script>
+<script src="../js/app.js"></script>
+<script> </script>
+
+</html>

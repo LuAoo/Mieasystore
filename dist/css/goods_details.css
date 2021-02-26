@@ -1,0 +1,144 @@
+.main {
+  background-color: white;
+}
+.detail_content {
+  padding-bottom: 40px;
+  width: 1300px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.detail_left {
+  height: 560px;
+}
+.detail_left img {
+  width: 560px;
+}
+.detail_right {
+  width: 600px;
+}
+.detail_right .detail_name {
+  font-size: 30px;
+  color: black;
+}
+.detail_right .detail_info {
+  font-size: 15px;
+  color: #B0B0B0;
+  margin-top: 20px;
+}
+.detail_right .detail_type {
+  font-size: 15px;
+  color: #FF480A;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.detail_right .ttttttt {
+  margin-top: 10px;
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  background: #FF480A;
+}
+.detail_right .ttttttt p {
+  padding-left: 20px;
+  color: white;
+  font-size: 28px;
+}
+.detail_right .detail_adress {
+  width: 100%;
+  height: 100px;
+  background: #FAFAFA;
+  margin-top: 20px;
+  border: 1px solid #E0E0E0;
+}
+.detail_right .detail_adress div {
+  position: relative;
+  top: 50%;
+  left: 20px;
+  transform: translateY(-50%);
+}
+.detail_right .detail_adress div .detail_adress_change {
+  margin-left: 20px;
+  color: #FF480A;
+}
+.detail_right .detail_adress div .detail_adress_type {
+  margin-top: 5px;
+  color: #FF480A;
+}
+.detail_right .Chose_color {
+  font-size: 25px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.detail_right .Chose_color_button {
+  width: 300px;
+  height: 40px;
+  background: white;
+  border: 1px solid #FF480A;
+  color: #FF480A;
+}
+.detail_right .detail_buyinfo {
+  margin-top: 30px;
+  background: #F9F9FA;
+  width: 100%;
+  height: 150px;
+}
+.detail_right .detail_buyinfo .detail_buyinfo_top {
+  display: flex;
+  line-height: 80px;
+  justify-content: space-between;
+}
+.detail_right .detail_buyinfo .detail_buyinfo_top .detail_buyinfo_top_info {
+  padding-left: 20px;
+  color: #616161;
+}
+.detail_right .detail_buyinfo .detail_buyinfo_top .detail_buyinfo_top_price {
+  padding-right: 20px;
+  color: #616161;
+}
+.detail_right .detail_buyinfo .price_add {
+  padding-left: 20px;
+  font-size: 28px;
+  color: #FF6700;
+}
+.detail_right .dosonething .dosonething_one {
+  border: 0;
+  margin-top: 20px;
+  width: 300px;
+  height: 60px;
+  background: #FF6700;
+  color: white;
+  font-size: 20px;
+  transition: all 0.5s;
+}
+.detail_right .dosonething .dosonething_one:hover {
+  background: #e65d00;
+}
+.detail_right .dosonething .dosonething_two {
+  margin-left: 10px;
+  border: 0;
+  margin-top: 20px;
+  width: 120px;
+  height: 60px;
+  background: #B0B0B0;
+  color: white;
+  font-size: 20px;
+  transition: all 0.5s;
+}
+.detail_right .dosonething .dosonething_two:hover {
+  background: #979797;
+}
+.detail_right .xiaomistyle {
+  margin-top: 20px;
+}
+.detail_right .xiaomistyle a {
+  width: 80px;
+  line-height: 30px;
+  color: #B0B0B0;
+}
+.detail_right .xiaomistyle a span {
+  color: #B0B0B0;
+}
+.detail_right .xiaomistyle a:not(:first-child) {
+  margin-left: 12px;
+}

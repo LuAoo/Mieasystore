@@ -1,0 +1,99 @@
+.swiper-container {
+  width: 1300px;
+  height: 450px;
+  --swiper-theme-color: white;
+  /* 设置Swiper风格 */
+  --swiper-navigation-color: #b3b3b3;
+  /* 单独设置按钮颜色 */
+  --swiper-navigation-size: 30px;
+  /* 设置按钮大小 */
+}
+.swiper-container img {
+  width: 1300px;
+  height: 450px;
+  position: relative;
+}
+.swiper-container .swiper-button-prev {
+  margin-left: 250px;
+}
+.swiper-container .swiper-pagination {
+  width: 100px;
+  position: absolute;
+  left: 1200px;
+}
+.swiper-container .swiper-pagination span {
+  border: 2px white solid;
+}
+.swiper-container .category {
+  position: absolute;
+  top: 0;
+  z-index: 10;
+}
+.swiper-container .category span {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+}
+.swiper-container .category .first_category {
+  position: absolute;
+  top: 0;
+  width: 230px;
+  height: 450px;
+  padding: 25px 0px 20px 0px;
+  background: rgba(128, 128, 128, 0.3);
+}
+.swiper-container .category .first_category .first_category_li {
+  line-height: 40px;
+  height: 40px;
+}
+.swiper-container .category .first_category .first_category_li a {
+  padding-left: 10px;
+  color: white;
+  font-size: 14px;
+}
+.swiper-container .category .first_category .first_category_li span {
+  right: 5px;
+  position: absolute;
+}
+.swiper-container .category .first_category .first_category_li:hover {
+  background: #FF6700;
+}
+.swiper-container .category .first_category .first_category_li .second_category {
+  padding: 20px;
+  position: absolute;
+  top: 1px;
+  bottom: 1px;
+  left: 230px;
+  background: white;
+  height: 450px;
+  min-width: 600px;
+  max-width: 1000px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-content: flex-start;
+  -moz-box-shadow: 0px -1px 8px #333333;
+  -webkit-box-shadow: 0px -1px 8px #333333;
+  box-shadow: 0px -1px 8px #333333;
+}
+.swiper-container .category .first_category .first_category_li .second_category li {
+  flex-basis: 16%;
+  overflow: hidden;
+  width: 200px;
+  line-height: 50px;
+}
+.swiper-container .category .first_category .first_category_li .second_category li a {
+  color: black;
+  float: left;
+  line-height: 50px;
+}
+.swiper-container .category .first_category .first_category_li .second_category li img {
+  width: 30px;
+  height: 30px;
+  float: left;
+  background-size: cover;
+  margin-top: 10px;
+}
+.swiper-container .category .first_category .first_category_li .second_category li:hover a {
+  color: #FF6700;
+}

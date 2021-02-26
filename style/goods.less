@@ -1,0 +1,65 @@
+   .doogs_content{
+        padding-bottom: 40px;
+        width: 1300px;
+        margin: 0 auto;
+        .goods_item{
+            .good_poster{
+                width: 1300px;
+                margin-top: 15px;
+
+            }
+            h3{
+                font-size: 25px;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                line-height: 70px;
+                font-weight: normal;
+            }
+            .goods_item_content{
+                display: flex;
+                flex-wrap: wrap;
+                flex:0 1 auto;
+                flex-direction: row;
+                // justify-content: space-around;
+                .goods_item_content_item{
+                    margin-left: 10px;
+                    padding: 10px;
+                    margin-top: 10px;
+                    width: 230px;
+                    height: 300px;
+                    background:#fff;
+                    .goods_item_content_item_img{
+                        width: 100%;
+                        height: 200px;
+                    }
+                    p{
+                        text-align: center;
+                        line-height: 30px;
+                        overflow: hidden;
+                        display: block;
+                        white-space: nowrap;
+                        text-overflow: ellipsis;
+                    }
+                    .goods_item_content_item_name{
+                        font-size: 15px;
+                        color: black;
+                    }
+                    .goods_item_content_item_des{
+                        font-size: 10px;
+                        color: #B0B0B0;
+                    }
+                    .goods_item_content_item_price{
+                        font-size: 15px;
+                        color: #FF6700;
+                    }
+                    &:hover{
+                        // hover移动效果
+                        position: relative;
+                        top: -5px;
+                        transition: all 500ms;
+                        -moz-box-shadow:-1px 1px 20px darken(#F5F5F5,20%); -webkit-box-shadow:-1px 1px 20px darken(#F5F5F5,20%); 
+                        box-shadow:-1px 1px 20px darken(#F5F5F5,20%);
+                    }
+                }
+            }
+        }
+     }

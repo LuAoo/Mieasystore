@@ -1,0 +1,40 @@
+.nav_content{
+    ul{
+        display: flex;
+        justify-content:center;
+    }
+    li{
+        // float: left;
+        position: relative;
+        cursor: pointer;
+        // margin-right: 30px;
+        text-align: center;
+        width: 100px;
+        padding-bottom: 20px;
+        a{
+            color: black;
+            white-space:nowrap
+        }
+        &::before{
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 100%;
+            width: 0;
+            height: 100%;
+            border-bottom: 3px solid orange;
+            transition: all .1s linear;
+        }
+        &:hover a{
+            color:orange ;
+        }
+        &:hover::before{
+            width: 100%;
+            left: 0;
+            transition-delay: .1s;
+        }
+        &:hover ~li::before{
+            left: 0;
+        }
+    }
+}
